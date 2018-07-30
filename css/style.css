@@ -1,0 +1,19 @@
+#mainBox{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+#mainDiv{
+    overflow: hidden;
+}
+#firstBox,#secondBox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#firstBox{
+    z-index: 10;
+}
+#secondBox{
+    z-index: 0;
+}
